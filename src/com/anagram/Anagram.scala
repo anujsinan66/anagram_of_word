@@ -47,7 +47,7 @@ class WordUtills() {
    * @param value the string we want to sort
    * */
   def sort_string(value: String): String = {
-    return value.toCharArray().sorted.mkString("")
+    return value.toCharArray().sorted.mkString("").toLowerCase()
   }
 
    /**
